@@ -1,0 +1,45 @@
+<ul>
+  <li>
+    Quickstart
+    <ul>
+    {% for page in site.categories.quickstart reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    Apple Wallet
+    <ul>
+    {% for page in site.categories.apple-wallet reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+  <li>
+    Android Pay
+    <ul>
+    {% for page in site.categories.android-pay reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    Miscellaneous
+    <ul>
+    {% for page in site.categories.misc reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+</ul>

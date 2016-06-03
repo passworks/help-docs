@@ -1,0 +1,47 @@
+body,
+html {
+  background: $background-color;
+  /*background-image: url("/assets/images/bg.png");*/
+  font-family: 'proxima-nova', Helvetica, sans-serif;
+}
+.page-content {
+  .wrapper {
+    border-radius: 6px;
+    background: white;
+    padding: 0;
+    /* box-shadow: 0 0 21px rgba(0,0,0,.21); */
+    border: 1px solid #E9E9E9;
+  }
+}
+.content {
+  width: 690px;
+  float: left;
+  background: white;
+  padding: 47px 30px;
+  border-left: 1px solid #ddd;
+  position: relative;
+  ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+    list-style: initial;
+
+    &.index-list {
+      list-style: none;
+    }
+
+    li {
+      float: none;
+      font-size: 16px;
+
+      li {
+        font-size: 14px;
+        padding-left: 15px;
+        font-weight: 300;
+      }
+    }
+  }
+  @include media-query($on-palm) {
+    width: 100%;
+    border-radius: 6px;
+  }
+}

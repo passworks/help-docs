@@ -1,0 +1,14 @@
+title: Passworks support
+email: support@passworks.io
+description: Passworks support and documentation center. Everything technical and non-technical about mobile wallets
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: 'https://help.passworks.io'
+twitter_username: passworksio
+github_username: passworks
+github_base_url: https://github.com/passworks/passworks-docs/tree/master/
+
+# Build settings
+markdown: kramdown
+
+sass:
+  sass_dir: _sass
