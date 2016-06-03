@@ -1,5 +1,7 @@
 # Passworks documentation
 
+You can find the documentation live at [help.passworks.io](help.passworks.io)
+
 ### To run
 
 ```
