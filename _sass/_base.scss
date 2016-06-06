@@ -4,6 +4,14 @@
     -moz-box-sizing: border-box;
 }
 
+
+.content a[href^="//"]:after,
+.content a[href^="http://"]:after,
+.content a[href^="https://"]:after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+}
+
 /**
  * Reset some basic elements
  */

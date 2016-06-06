@@ -64,3 +64,29 @@ get the app ow directly show it if you using a device with the installer Android
 
 If you want to see how the passes are shown at the Android Pay app, check the
 [Installing Android Pay Passes]({% post_url 2016-06-04-installing-android-pay-passes %})
+
+
+
+{:.image.retina.android}
+![android-pay-links](/assets/images/android-pay-links.png)
+**
+
+{:.image.retina.android}
+![android-pay-lockscreen](/assets/images/android-pay-lockscreen.png)
+**
+
+{:.image.retina.android}
+![android-pay-not-icon-header](/assets/images/android-pay-not-icon-header.png)
+**
+
+{:.image.retina.android}
+![android-pay-not-preview](/assets/images/android-pay-not-preview.png)
+**
+
+{:.image.retina.android}
+![android-pay-pass-detail](/assets/images/android-pay-pass-detail.png)
+**
+
+{:.image.retina.android}
+![android-pay-pass-listing](/assets/images/android-pay-pass-listing.png)
+**
