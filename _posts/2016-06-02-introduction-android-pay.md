@@ -9,17 +9,19 @@ description: Introduction, android pay, basics, flow
 
 {{ toc }}
 
-Android Pay (formerly called Google Wallet) is a platform Google released for integrating
+Android Pay (formerly called Google Wallet) is a platform that Google released to integrate
 payments using Android devices. It has been released in 2015 in US, at the beginning of 2016
-in the UK and scheduled for releasing in Australia at the end of the year.
+in the UK and scheduled for releasing in Australia at the end of 2016.
 
 For those who already use mobile wallet solutions based on the Apple Wallet (Passbook)
-there are some key differences that should be pointed out before start using the Android Pay.
-The first is that some passes (or cards), was named after its concept (loyalty, coupon, etc)
-and applied some constraints (eg: the balance in a Gift Card). Another main difference is that
-Google manage the passes lifecycle, it means that instead of downloading a file (and then
-downloading it again after updates) as it's done by Apple, Android Pay holds the information
-on their server and make it available for your *Google Account* for all your devices.
+there are some key differences that should be pointed out before start using the Android Pay:
+
+ * The first is that some passes (or cards) were named after its concept (loyalty, coupon, etc)
+   and applied some constraints (eg: the balance in a Gift Card).
+ * Another main difference is that Google manage the passes lifecycle, it means that
+   instead of downloading a file (and then downloading it again after updates) as it's
+   done by Apple, Android Pay holds the information on their server and make it available for
+   your *Google Account* for all your devices.
 
 The platform consists in two basic features, `Payments` and `Passes`, the first one allows you
 to use your device (with NFC technology enabled) for making payments by registering
