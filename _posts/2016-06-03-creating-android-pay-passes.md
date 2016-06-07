@@ -17,7 +17,7 @@ description: Pass Creation, android pay, basics, flow
 
 If you arrived here, you're probably about to create passes targeted to the Android Pay platform.
 In case you haven't yet fully understand the concepts, please see our
-[Introduction to Android Pay](2016-06-03-introduction-android-pay) page and then return to the
+[Introduction to Android Pay]({% post_url 2016-06-03-introduction-android-pay %}) page and then return to the
 creation process.
 
 
@@ -171,7 +171,7 @@ from the barcode selection area. The actual options are:
 ![barcode](/assets/images/android-barcode.png)
 *Figure 8 - Barcodes*
 
-> Check our [Supported Barcodes](2016-01-02-supported-barcodes) page with a complete list and
+> Check our [Supported Barcodes]({% post_url 2016-01-02-supported-barcodes %}) page with a complete list and
 > detailed information about each barcode type.
 
 
@@ -229,55 +229,57 @@ theirs Android Pay App.
 
 ### Distribution
 
-As the instalation of the pass to the user's Android Pay app it managed by Google,
-at the distribution page, the user will first see the button 'I Have Android Pay'.
+> Remember: The download pages for `Distribution` and `Pass` are the same. The onlu difference is
+> that at the Distribution page, when a user clicks for download the Apple Wallet pass, it
+> creates a new pass and then push it to the user.
+
+As the instalation of the pass to the user's *Android Pay* app is managed by Google,
+the pass should be created before displaying the *Save To Pay* button. At this point the pass
+is not created yet, so is first shows a "I have Andodroid Pay"
 
 {:.image.retina.android}
 ![i-have-wallet](/assets/images/android-i-have-wallet.png)
-**
+*Figure 15 - Default distribution page*
 
 {:.image.retina.android}
 ![i-have-wallet-android](/assets/images/android-i-have-wallet-android.png)
-**
+*Figure 16 - Anrdoid distribution page*
 
-Clicking it will generate a pass and update the button to the "Save To Pay".
+Right after the user clicks at the button, the pass then will be created and the button should
+change to "Save to Pay"
 
 ### Passes
 
-After clicking at the "I Have Android Pay" or foloowing the direct pass URL, the user will
-see the "Save to Pay".
+Either by clicking at the "I have Android Pay" button or following a direct link, the user can
+now click at the "Save to Pay" button and actually installing the pass to its "Android Pay" app.
 
 {:.image.retina.android}
 ![save-to-pay](/assets/images/android-save-to-pay.png)
-**
+*Figure 17 - Save To Pay Default Page*
 
 ### Google Accounts
 
-As mentioned on the `Introduction` you (and specialy your client) must have a Google Account.
+As mentioned on the [Introduction]({% post_url 2016-06-02-introduction-android-pay %}), in order to install
+the pass you must have a Google Account.
 
 {:.image.retina.android}
 ![save-to-pay-credentials](/assets/images/android-save-to-pay-credentials.png)
-**
+*Figure 18 - Google Account Required*
+
+> If you're not logged into any Google Account, the popover will give all the instructions
+> to login and then install the pass.
+
+
+After the pass get really installed, the button will tell you so and suggest you either
+get the app or directly show it if you are using a device with Android Pay app installed.
 
 {:.image.retina.android}
 ![saved-to-pay-android](/assets/images/android-saved-to-pay-android.png)
-**
-
-> If you're not logged into any Google Account, the popover will as you to login before adding
-> the pass
-
-### Android Pay App
-
-Then, after the pass get really installer, the button will tell you so and suggest you either
-get the app ow directly show it if you using a device with the installer Android Pay app.
-
-{:.image.retina.android}
-![saved-to-pay-android](/assets/images/android-saved-to-pay-android.png)
-**
+*Figure 19 - Saved to Pay Android Page*
 
 {:.image.retina.android}
 ![saved-to-pay](/assets/images/android-saved-to-pay.png)
-**
+*Figure 20 - Saved to Pay Default Page*
 
 If you want to see how the passes are shown at the Android Pay app, check the
 [Installing Android Pay Passes]({% post_url 2016-06-04-installing-android-pay-passes %})

@@ -72,7 +72,7 @@ have access for the number of the barcode, and add to your wallet or you can nav
 merchant website and use the "Add to Android Pay" button.
 
 The main idea behind you be allowed to add your own cards, is to allow you to have a digital copy
-of them, as the [barcodes](2016-01-02-supported-barcodes) are generated in the same way, if
+of them, as the [barcodes]({% post_url 2016-01-02-supported-barcodes %}) are generated in the same way, if
 a specific merchant already have a reader for it's card codes, they will automatically work
 with the Android Pay digital version.
 
@@ -82,7 +82,7 @@ If you want to
 ### Adding to wallet
 
 > You can read with more details about how adding passes to the wallet
-> [here](2016-06-04-installing-android-pay-passes)
+> [here]({% post_url 2016-06-04-installing-android-pay-passes %})
 
 You have two ways of adding passes to your Android Pay app: The first is to create, yourself,
 a digital copy of your existent cards (coupons, loyalty, membership, etc) that holds one
@@ -113,7 +113,7 @@ the device is nearby the specific location.
 
 ### Redeeming/Using the Passes
 
-> Please check [our redeeming documentation](2016-01-01-redeeming-a-campaign) for more
+> Please check [our redeeming documentation]({% post_url 2016-01-01-redeeming-a-campaign %}) for more
 > specific information on redeeming passes
 
 In most cases, the action of redeeming or using some pass is basicaly to read the barcode using
