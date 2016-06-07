@@ -17,7 +17,7 @@ description: Pass Creation, android pay, basics, flow
 
 If you arrived here, you're probably about to create passes targeted to the Android Pay platform.
 In case you haven't yet fully understand the concepts, please see our
-[Introduction to Android Pay]({% post_url 2016-06-03-introduction-android-pay %}) page and then return to the
+[Introduction to Android Pay]({% post_url 2016-06-02-introduction-android-pay %}) page and then return to the
 creation process.
 
 
