@@ -8,7 +8,7 @@ description: Migrating from another Mobile Wallet Platform
 ---
 
 > Right now there is no established procedure on how to migrate Android Pay
-passes generated on other platforms. Please ask for more advice on this topic at support e-mail address.
+passes generated on other platforms. Please ask for more advice on this topic at the support e-mail address.
 
 Migrating Apple Wallet (Passbook) passes from another Mobile Wallet Platform can be a cumbersome task, this requires direct intervention
 of our engineering team and your team in order to migrate the passes one-by-one successfully.

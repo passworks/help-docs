@@ -1,11 +1,21 @@
 title: Passworks support
 email: support@passworks.io
 description: Passworks support and documentation center. Everything technical and non-technical about mobile wallets
-baseurl: '' # the subpath of your site, e.g. /blog/
+
 url: 'https://help.passworks.io'
-twitter_username: passworksio
+baseurl: '' # the subpath of your site, e.g. /blog/
+
+twitter_username: passworks.io
+twitter_image: //i.imgur.com/q9AfMsh.png
+
 github_username: passworks
 github_base_url: https://github.com/passworks/passworks-docs/tree/master/
+
+google_analytics: UA-50457758-6
+
+facebook_image: //i.imgur.com/q9AfMsh.png
+facebook_appid: 795830973765479
+facebook_admins: 630880310
 
 # Build settings
 markdown: kramdown

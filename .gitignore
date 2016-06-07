@@ -4,3 +4,4 @@ _site
 .capistrano
 .DS_Store
 _site
+log/
