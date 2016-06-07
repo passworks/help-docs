@@ -9,25 +9,22 @@
 
   <meta name="keywords" content="one stop shop for mobile wallets, mobile wallet marketing, boarding passes, event tickets, coupons, vouchers, stamp cards, punch cards, android scanner, ios scanner, android passbook scanner, ios passbook scanner, apple wallet, android pay"/>
 
-  <meta property="og:title" content="{% if page.title %}Passworks - {{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image" content="{{ page.facebook_image }}"/>
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
-  <meta property="fb:admins" content="1234" />
-  <meta property="fb:app_id" content="{{ page.facebook_appid }}" />
-  <meta property="fb:admins" content="{{ page.facebook_admins }}" />
+  <meta name="og:title" content="{% if page.title %}Passworks - {{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta name="og:type" content="website" />
+  <meta name="og:image" content="{{ page.facebook_image }}"/>
+  <meta name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"/>
+  <meta name="fb:app_id" content="{{ page.facebook_appid }}" />
+  <meta name="fb:admins" content="{{ page.facebook_admins }}" />
+  <meta name="og:url" content="{{ page.url | prepend: site.url }}" />
 
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="{{ page.url | prepend: site.url }}" />
+  <meta name="twitter:title" content="{% if page.title %}Passworks - {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta name="twitter:image" content="{{ page.twitter_image }}" />
 
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="" />
-  <meta name="twitter:url" content="">
-  <meta name="twitter:title" content="{% if page.title %}Passworks - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{{ page.twitter_image }}">
-
-  <script src="//use.typekit.net/mie1smk.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <script src="https://use.typekit.net/wkz6rgg.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
