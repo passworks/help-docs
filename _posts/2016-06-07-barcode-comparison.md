@@ -1,5 +1,5 @@
 ---
-title: Barcode Types Comparision
+title: Barcode Types Comparison
 categories:
   - misc
 layout: documentation
@@ -7,10 +7,10 @@ permalink: /:title
 description: Comparision for barcodes
 ---
 
-> Remember: The Android Pay integration stills in beta and some features and integrations might
+> Warning: The Android Pay integration stills in beta and some features and integrations might
 > not be available for users yet.
 
-This is the list of avaialbe barcodes by platforms combined:
+This is the list of available barcodes by platforms combined:
 
 | Barcode Type  | Apple Wallet  | Android Pay |
 |---------------|---------------|-------------|
@@ -30,16 +30,16 @@ This is the list of avaialbe barcodes by platforms combined:
 | upcE          | N/A           | N/A         |
 
 
-At *Apple Wallet* allows us to use only a small set of barcodes:
+*Apple Wallet* supports a very small set of barcodes:
 
 * Aztec
 * QRCode
 * PF417
 * EAN128*
 
-> The EAN129 is only supported after IOS8
+> NOTE: EAN129 is only supported in iOS 9 or greater
 
-While *Android Pay* has introduced a larger set:
+*Android Pay* supports a larger set of barcodes:
 
 * Aztec
 * QRCode
@@ -57,7 +57,7 @@ While *Android Pay* has introduced a larger set:
 * upcE
 
 However as we're working on the *Android Pay* integration, only the barcodes that
-already are supported by Apple are being supported for Android, soon all the others
+already are supported by Apple are being supported on Android Pay, soon all the others
 are going to be available.
 
 > For specific information about each barcode type and its integration with each platform, please
