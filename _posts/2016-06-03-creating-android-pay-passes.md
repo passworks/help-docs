@@ -226,6 +226,17 @@ You can reload the page and check the status:
 It's done, now you can share your distribution link or passes and the users can install it to
 theirs Android Pay App.
 
+#### Errors
+
+If any kind of error happen, a link for trying another sync should appear. Our tech team will
+probably be notified in advance.
+
+{:.image.retina.android}
+![sync-done](/assets/images/android-error-sync.png)
+*Figure 14.1 - Sync error*
+
+
+
 
 ### Distribution
 
