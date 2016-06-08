@@ -3,7 +3,7 @@ title: Barcodes
 categories: apple-wallet
 layout: documentation
 permalink: /:title
-description: "The Wallet app supports 1D and 2D barcodes: EAN128, QR Code, Aztec, PDF417"
+description: Learn about the barcodes supported by the Apple Wallet
 ---
 
 

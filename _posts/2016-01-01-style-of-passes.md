@@ -3,12 +3,12 @@ title: Pass Style
 categories: apple-wallet
 layout: documentation
 permalink: /:title
-description: Pass Style, content specifications
+description: Learn about the different Apple Wallet pass styles (coupon, boarding passes) and their key differences
 ---
 
 {{ toc }}
 
-The passp's style determines the overall visual appearance of the pass and the template for placement of information on the pass. The most distinctive visual indication of the style is at the top edge of the pass. Event tickets have a small cutout, coupons have a perforated edge, and so on.
+The passes style determines the overall visual appearance of the pass and the template for placement of information on the pass. The most distinctive visual indication of the style is at the top edge of the pass. Event tickets have a small cutout, coupons have a perforated edge, and so on.
 
 Passes contain text, images, and a barcode. You set the pass’s style, provide images, and set colors and text formatting. The Wallet app then lays out and presents the pass for you. It also provides controls, letting the user manage and delete passes.
 
