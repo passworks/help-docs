@@ -4,7 +4,7 @@ You can find the documentation live at [help.passworks.io](help.passworks.io)
 
 ### To run
 
-This will launch the server running in http://localhost:4000
+This will launch the server running in [http://localhost:4000](http://localhost:4000)
 
 ```
 bundle exec jekyll serve --watch
