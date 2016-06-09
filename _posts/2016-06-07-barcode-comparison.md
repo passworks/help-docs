@@ -7,7 +7,7 @@ permalink: /:title
 description: Comparision for barcodes
 ---
 
-> Warning: The Android Pay integration stills in beta and some features and integrations might
+> Warning: The Android Pay integration is still in beta and some features and integrations might
 > not be available for users yet.
 
 This is the list of available barcodes by platforms combined:
@@ -30,7 +30,7 @@ This is the list of available barcodes by platforms combined:
 | upcE          | N/A           | N/A         |
 
 
-*Apple Wallet* supports a very small set of barcodes:
+*Apple Wallet* (formerly Passbook) supports a very small set of barcodes:
 
 * Aztec
 * QRCode

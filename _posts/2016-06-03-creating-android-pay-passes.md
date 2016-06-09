@@ -1,5 +1,5 @@
 ---
-title: Creating Android Pay Passes
+title: Creating Android Pay Mobile Passes
 categories:
   - android
 layout: documentation
@@ -9,25 +9,25 @@ description: Pass Creation, android pay, basics, flow
 
 {{ toc }}
 
-> Remember, the *Android Pay* passes creation is a *beta* feature, so many small features related
+> Remember, the *Android Pay* mobile passes creation is a *beta* feature, so many small features related
 > to it may not be fully available yet.
 >
-> We're constantly improving the integration with Android Pay, specially the creation flow.
+> We're constantly improving the integration with Android Pay, especially the creation flow.
 > So, if you find anything that is not working as expected, please let us know.
 
-If you arrived here, you're probably about to create passes targeted to the Android Pay platform.
+If you arrived here, you're probably about to create mobile passes targeted to the Android Pay platform.
 In case you haven't yet fully understand the concepts, please see our
 [Introduction to Android Pay]({% post_url 2016-06-02-introduction-android-pay %}) page and then return to the
 creation process.
 
 
-Aiming to give you a fast and practical way to create passes for the Android Pay,
-we've used the current Apple Wallet flow for creating them, as you might know, the passes are
+Aiming to give you a fast and practical way to create mobile passes for the Android Pay,
+we've used the current Apple Wallet (formerly Passbook) flow to creating them, as you might know, the passes are
 not visual maching, however the fields available follow the same structure.
 
-In order to create passes for Android Pay, just follow these steps:
+In order to create mobile passes for Android Pay, just follow these steps:
 
-## Chose a campaign type
+## Choose a campaign type
 
 Following the actual flow, the first action is to choose a campaign type. So far the supported
 types are:
@@ -35,10 +35,10 @@ types are:
  * Coupon (Android Pay Offer)
  * Membership (Android Pay Loyalty)
 
- > Confused with the pass name and types? Check our [Pass Types](pass-type) page with
+ > Confused with the pass name and types? Check our [Pass Types]({% post_url 2016-06-07-android-style-passes %}) page with
  > the compatibility table.
 
-After choosing one of this options, you should guarantee if the "Allow Android Pay" is
+After choosing one of these options, you should guarantee if the "Allow Android Pay" is
 checked, as follows:
 
 {:.image.retina.android}
@@ -50,14 +50,14 @@ Give your campaign a descriptive name and click 'Next'
 ## Design Pass
 
 The preview for the creation of a Android Pay template is not available yet, however, our
-current flow for creating passes uses the preview for interacting and filling the pass template
+current flow to creating passes uses the preview for interacting and filling the pass template
 and data. So you should, temporarily, interact with the Apple Preview for creating the fields.
 
 > Remember: You don't have to limitate the pass creation by the visual on the preview.
-> It's expecting a Apple Wallet information (witch differs on field size limitations).
+> It's expecting a Apple Wallet (formerly Passbook) information (witch differs on field size limitations).
 > So, don't worry about the look and feel here and focus on the final pass.
 >
-> It is worth read the Android Pay documentation regarding the pass structure and how
+> It is worth reading the Android Pay documentation regarding the pass structure and how
 > all this information is going to be rendered.
 >
 > * [Coupon/Offer](https://developers.google.com/save-to-android-pay/guides/offers/design)
@@ -71,13 +71,13 @@ and data. So you should, temporarily, interact with the Apple Preview for creati
 
 ### Colors
 
-In the first release of the Google Wallet, it was possible to choose the pass colors
+In the first release of Google Wallet, it was possible to choose the pass colors
 (background and text colors), however it was deprecated since the migration to Android Pay.
 
 The pass color rendered at the devices will be retrieved from the *Icon* image you'll associate
 with it. The algoright used try to figure the dominant color out and set it as background color.
 
-> We'll son release the Android Pay designer with the same algoright associated
+> We'll son release the Android Pay *designer template creator* with the same algoright associated
 > so as soon as you choose the icon's image, we'll check for the right color.
 
 {:.image.retina.android}
@@ -86,7 +86,7 @@ with it. The algoright used try to figure the dominant color out and set it as b
 
 ### Headers
 
-The `Notification Title` and `Logo Text` will be used as the pass title, if this information
+The *Notification Title* and *Logo Text* will be used as the pass title, if this information
 is not defined, the *Campaign Name* and *Organization Name* will be used instead.
 
 
@@ -96,14 +96,14 @@ is not defined, the *Campaign Name* and *Organization Name* will be used instead
 
 ### Images
 
-For the *Android Pay* passes, you can use a `Icon` and a `Strip Image`.
+For the *Android Pay* passes, you can use an *Icon* and a *Strip Image*.
 
 As mentioned before, the Icon is essencial as the pass color is defined based on this image and,
 of course, it's your brand name here.
 
 The strip image will be shown as the first item when navigatin to the pass detail.
 
-> The strip image doesn't have a constraint ratio defined, so very long images are allowed.
+> The strip image doesn't have a constraint ratio defined for its size, so very long images are allowed.
 > Take care while choosing it.
 
 {:.image.retina.android}
@@ -115,7 +115,7 @@ The strip image will be shown as the first item when navigatin to the pass detai
 ## Pass Content
 
 
-> Once again, it is worth read the Android Pay documentation regarding the pass structure and how
+> Once again, it is worth reading the Android Pay documentation regarding the pass structure and how
 > all this information is going to be rendered.
 >
 > * [Coupon/Offer](https://developers.google.com/save-to-android-pay/guides/offers/design)
@@ -126,7 +126,8 @@ The strip image will be shown as the first item when navigatin to the pass detai
 Right after the image, it may list a set of title/desctiption used for depict all the pass
 information. As the current *template creator* can define multiple fields (at different positions)
 
-We tried to order the fields as they are defined in here in the form. The order is:
+We tried to order the fields the the *Android Pay* as they are currently defined
+at the *Pass Designer*. The order is:
 
  * Header Fields
  * Primary Fields
@@ -143,7 +144,7 @@ or description text size.
 
 ### The links
 
-The "backfields" have a special behaviour, here at *Android Pay* you have the `Links` session
+The "backfields" have a special behaviour, here at *Android Pay* you have the *Links* session
 where you can add links, phones or map points, we made it available through the "backfeields",
 and for using it you simply have to use these references:
 
@@ -151,7 +152,7 @@ and for using it you simply have to use these references:
  * `*maps.google*` creates a pointer (title: pointer text, value: URL)
  * `tel:*` creates a link to a phone (title: link text, value: NUMBER)
 
-{:.image.retina.android}
+{:.image.retina}
 ![back_fields](/assets/images/android-back-fields.png)
 *Figure 7 - Backfields*
 
@@ -159,7 +160,7 @@ and for using it you simply have to use these references:
 
 ### Barcode
 
-All barcode types we supported at Apple are also supported for Android. You can choose it
+All barcode types we supported at Apple Wallet (Passbook) are also supported for Android. You can choose it
 from the barcode selection area. The actual options are:
 
  * QrCode
@@ -183,7 +184,7 @@ You can define up to 10 locations where a notification is going to pop at the ho
 ![locations](/assets/images/android-locations.png)
 *Figure 9 - Adding Locations*
 
-> Remember: There is no support for `Push Notifications` at the Android Pay.
+> Remember: There is no support for *Push Notifications* at the Android Pay.
 
 Even without push notifications, the users are informed that they are nearby a pass' merchant
 here is how it'll be shown on user's device:
@@ -201,21 +202,21 @@ here is how it'll be shown on user's device:
 *Figure 12 - Notification preview*
 
 
-> Remember: There is no support for `Beacons` at the Android Pay
+> Remember: There is no support for *Beacons* at the Android Pay
 
 ## Publish & Install
 
-After filling all the information, just publish the campaign ans you'll something like this:
+After filling all the information, just publish the campaign and you'll something like this:
 
 {:.image.retina}
 ![android-waiting.png](/assets/images/android-waiting.png)
 *Figure 13 - Notification preview*
 
-At this very moment, ours server will start to synchronize the pass information with the
-Android Pay Servers.
+At this very moment, our service will start to synchronize the pass information with the
+*Android Pay* Servers.
 
 > The synchronization may take some moments to be done, at this time you wont be able
-> to install the passes at the Android Pay.
+> to install the passes on the *Android Pay*.
 
 You can reload the page and check the status:
 
@@ -226,10 +227,21 @@ You can reload the page and check the status:
 It's done, now you can share your distribution link or passes and the users can install it to
 theirs Android Pay App.
 
+#### Errors
+
+If any kind of error happen, a link for trying another sync should appear. Our tech team will
+probably be notified in advance.
+
+{:.image.retina.android}
+![sync-done](/assets/images/android-error-sync.png)
+*Figure 14.1 - Sync error*
+
+
+
 
 ### Distribution
 
-> Remember: The download pages for `Distribution` and `Pass` are the same. The onlu difference is
+> Remember: The download pages for *Distribution* and *Pass* are the same. The onlu difference is
 > that at the Distribution page, when a user clicks for download the Apple Wallet pass, it
 > creates a new pass and then push it to the user.
 
@@ -250,8 +262,8 @@ change to "Save to Pay"
 
 ### Passes
 
-Either by clicking at the "I have Android Pay" button or following a direct link, the user can
-now click at the "Save to Pay" button and actually installing the pass to its "Android Pay" app.
+The user will either click at the "I have Android Pay" button or follow a direct link and then
+click at the "Save to Pay" button fot actually installing the pass to its *Android Pay* app.
 
 {:.image.retina.android}
 ![save-to-pay](/assets/images/android-save-to-pay.png)

@@ -7,7 +7,7 @@ permalink: /:title
 description: Comparison for pass types
 ---
 
-> Remember: The Android Pay integration stills in beta and some features and integrations might
+> Warning: The Android Pay integration is still in beta and some features and integrations might
 > not be available for users yet.
 
 | Pass type     | Apple Wallet         | Android Pay | Description |
