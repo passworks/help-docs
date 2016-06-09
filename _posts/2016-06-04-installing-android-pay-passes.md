@@ -11,9 +11,11 @@ description: Installing, android pay, basics, flow
 
 ## Instalation
 
+
+
 ### Distribution
 
-> Remember: The download pages for `Distribution` and `Pass` are the same. The only difference is
+> Remember: The download pages for *Distribution* and *Pass* are the same. The onlu difference is
 > that at the Distribution page, when a user clicks for download the Apple Wallet pass, it
 > creates a new pass and then push it to the user.
 
@@ -23,23 +25,23 @@ is not created yet, so is first shows a "I have Andodroid Pay"
 
 {:.image.retina.android}
 ![i-have-wallet](/assets/images/android-i-have-wallet.png)
-*Figure 1 - Default distribution page*
+*Figure 15 - Default distribution page*
 
 {:.image.retina.android}
 ![i-have-wallet-android](/assets/images/android-i-have-wallet-android.png)
-*Figure 2 - Anrdoid distribution page*
+*Figure 16 - Anrdoid distribution page*
 
 Right after the user clicks at the button, the pass then will be created and the button should
 change to "Save to Pay"
 
 ### Passes
 
-Either by clicking at the "I have Android Pay" button or following a direct link, the user can
-now click at the "Save to Pay" button and actually installing the pass to its "Android Pay" app.
+The user will either click at the "I have Android Pay" button or follow a direct link and then
+click at the "Save to Pay" button fot actually installing the pass to its *Android Pay* app.
 
 {:.image.retina.android}
 ![save-to-pay](/assets/images/android-save-to-pay.png)
-*Figure 3 - Save To Pay Default Page*
+*Figure 17 - Save To Pay Default Page*
 
 ### Google Accounts
 
@@ -48,7 +50,7 @@ the pass you must have a Google Account.
 
 {:.image.retina.android}
 ![save-to-pay-credentials](/assets/images/android-save-to-pay-credentials.png)
-*Figure 4 - Google Account Required*
+*Figure 18 - Google Account Required*
 
 > If you're not logged into any Google Account, the popover will give all the instructions
 > to login and then install the pass.
@@ -59,14 +61,17 @@ get the app or directly show it if you are using a device with Android Pay app i
 
 {:.image.retina.android}
 ![saved-to-pay-android](/assets/images/android-saved-to-pay-android.png)
-*Figure 5 - Saved to Pay Android Page*
+*Figure 19 - Saved to Pay Android Page*
 
 {:.image.retina.android}
 ![saved-to-pay](/assets/images/android-saved-to-pay.png)
-*Figure 6 - Saved to Pay Default Page*
+*Figure 20 - Saved to Pay Default Page*
+
+If you want to see how the passes are shown at the Android Pay app, check the
+[Installing Android Pay Passes]({% post_url 2016-06-04-installing-android-pay-passes %})
 
 
-## At the app
+## In the app
 
 > Remember: The user doesn't have to have neither be using the Android Device to Install the pass
 > to its Android Pay Account. However, in order to see or use it, the App is mandatory.
