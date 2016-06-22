@@ -241,7 +241,7 @@ probably be notified in advance.
 
 ### Distribution
 
-> Remember: The download pages for *Distribution* and *Pass* are the same. The onlu difference is
+> Remember: The download pages for *Distribution* and *Pass* are the same. The only difference is
 > that at the Distribution page, when a user clicks for download the Apple Wallet pass, it
 > creates a new pass and then push it to the user.
 
