@@ -17,9 +17,9 @@ So far *Android Pay* has release only 3 types of passes. Their concept is upon `
 `Objects` however, we can make a correlation between those and `Campaigns` and `Passes`.
 Throughout all our documentation the terms `Campaigns` and `Passes` are going to be used instead.
 
-| Pass type     | Support    | Correlation     |
+| Android Pay Pass type     | Support    | Passworks Correlation     |
 |---------------|------------|-----------------|
-| Loyalty cards | &#10003;   | Membership Pass |
+| Loyalty cards | &#10003;   | Store card |
 | Gift cards    | N/A        | N/A             |
 | Offers        | &#10003;   | Coupon          |
 
