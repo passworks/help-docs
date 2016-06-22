@@ -1,7 +1,14 @@
 .site-footer {
-  padding: 0 0 $spacing-unit;
+  padding: 10px 0 $spacing-unit;
   color: white;
   font-size: 12px;
+  background-color: #424242;
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
 }
 .footer-heading {
   font-size: 18px;
