@@ -51,6 +51,9 @@ the habilitation for the service.
 At the end of the conversation, they will tell you that your account already has support for
 the service and inform the __ISSUER_ID__ and a short documentation on how to enable it.
 
+> Attention: This step is not automatic. It may take several days untill *Google* personal
+> get in contact and enable the support for yor account
+
 
 ## Enable the Wallet API
 
@@ -69,7 +72,7 @@ Then, at the details, click on the button that enables it:
 
 For now on, the service is officially activated for your account
 
-## Create the Server Token
+## Create the Service Account Key
 
 Go to the __Credentials__ tab, click the button **Create Credentials** and then choose
 __Service account key__
