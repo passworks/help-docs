@@ -89,7 +89,7 @@ the key file
 *Figure 6 - Enable the service*
 
 Right after, a popup will tell you the key name and push a file for you download and store it
-(this key is going to be used at the **Passworks Backoffice**)
+(this key is going to be used at the [Passworks Management Console](http://manage.passworks.io/))
 
 {:.image.retina}
 ![barcode_aztec](/assets/images/ap-create-servcred3.png)
@@ -125,7 +125,7 @@ Just add the recently created email as a user and it's done.
 
 # Update the credentials at Passworks
 
-The final step is to log in your **Passworks Settings** and fill the information as follows:
+The final step is to login at the [Passworks Management Console](http://manage.passworks.io/) and fill the information as follows:
 
 {:.image.retina}
 ![barcode_aztec](/assets/images/ap-pw-settings.png)
