@@ -3,7 +3,7 @@ title: Redeeming a pass
 categories: quickstart
 layout: documentation
 permalink: /:title
-description: Information on how to redeem a pass using the redeem web page or mobile apps and managing the users (redeemers) that are allow to redeem per campaign.
+description: How to redeem a pass using the redeem web page or any of the mobile apps and managing the redeemers (users that are allowed to redeem a given campaign).
 ---
 
 You can redeem a pass using any of the following solutions provided by our platform:
