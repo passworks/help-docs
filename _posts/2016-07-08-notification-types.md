@@ -53,4 +53,4 @@ through the update of a campaign/pass but are not associated to any location. Si
 
 {:.image.retina.size-75}
 ![lock-screen-notification](/assets/images/types-of-notifications/push-message.png)
-*Figure 3 - Sending push message to all passes*
+*Figure 4 - Sending push message to all passes*

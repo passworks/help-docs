@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    airbrussh (1.0.2)
+      sshkit (>= 1.6.1, != 1.7.0)
     blankslate (2.1.2.4)
     capistrano (3.4.0)
       i18n
@@ -76,10 +78,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  airbrussh
   capistrano (~> 3.4.0)
   dotenv (~> 2.0.1)
   jekyll
   kramdown
 
 BUNDLED WITH
-   1.10.6
+   1.12.3

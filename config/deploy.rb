@@ -2,20 +2,22 @@ require 'dotenv'
 Dotenv.load
 
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.5.0'
 
 set :application, 'support'
 set :repo_url, 'git@github.com:passworks/help-docs.git'
 set :deploy_to, ENV['DEPLOY_TO']
 
-namespace :deploy do
-  after :finishing, :update_jekyll do
-    puts 'Removing old files'
-    on ENV['DEPLOY_SSH'] do
-      execute 'cd current && rm -rf _site/*'
+set :format, :pretty
 
-      puts 'Building site'
-      execute 'cd current && jekyll build'
+namespace :deploy do
+  task :update_jekyll do
+    on roles(:app) do
+      within "#{deploy_to}/current" do
+        execute :jekyll, "build"
+      end
     end
   end
 end
+
+after "deploy:symlink:release", "deploy:update_jekyll"
