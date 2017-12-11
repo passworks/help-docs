@@ -5,3 +5,4 @@ gem 'dotenv', '~> 2.0.1'
 gem "airbrussh", :require => false
 gem 'kramdown'
 gem 'jekyll'
+gem 'jekyll-toc'
