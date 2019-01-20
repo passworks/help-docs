@@ -20,7 +20,7 @@ To setup and configure single sign-on access on the Passworks Platform you need 
       <table width="100%" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td>
-            <img src="/assets/images/sso/saml/owner-account.png" width="400px" alt="Owner account"/>
+            <img src="/assets/images/sso/saml/owner-account.png?v=2" width="400px" alt="Owner account"/>
           </td>
           <td>
             Please note the "Owner" written on the bottom of the card describing the user role.
