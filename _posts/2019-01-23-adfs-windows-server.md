@@ -2,6 +2,8 @@
 title: Single Sign-on with ADFS and SAML
 permalink: /:title
 layout: documentation
+categories:
+  - misc
 description: Single Sign-on with ADFS and SAML
 ---
 
