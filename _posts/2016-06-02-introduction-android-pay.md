@@ -53,8 +53,8 @@ reports and budgets manager.
 You can read more about the payments here:
 
  * <a href="https://www.android.com/pay/" target="_blank">Android Pay</a>
- * <a href="http://www.androidauthority.com/android-pay-how-does-it-work-who-supports-it-678739/" target="_blank">Android Pay – What is it, how does it work and who supports it?</a>
- * <a href="http://www.pocket-lint.com/news/135017-android-pay-uk-explained-how-it-works-and-where-it-s-supported" target="_blank">Android Pay UK explained: How it works and where it's supported</a>
+ * <a href="https://www.androidauthority.com/android-pay-how-does-it-work-who-supports-it-678739/" target="_blank">Android Pay – What is it, how does it work and who supports it?</a>
+ * <a href="https://www.pocket-lint.com/news/135017-android-pay-uk-explained-how-it-works-and-where-it-s-supported" target="_blank">Android Pay UK explained: How it works and where it's supported</a>
 
 ## Passes
 
