@@ -2,6 +2,7 @@
 title: Barcode Types Comparison
 categories:
   - misc
+  - quickstart
 layout: documentation
 permalink: /:title
 description: Comparision for barcodes

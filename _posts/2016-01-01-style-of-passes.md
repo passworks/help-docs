@@ -1,6 +1,7 @@
 ---
 title: Pass Style
-categories: apple-wallet
+categories:
+  - apple-wallet
 layout: documentation
 permalink: /:title
 description: Learn about the different Apple Wallet pass styles (coupon, boarding passes) and their key differences

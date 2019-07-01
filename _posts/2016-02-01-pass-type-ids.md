@@ -1,6 +1,7 @@
 ---
 title: What is Pass Type ID
-categories: apple-wallet
+categories:
+  - apple-wallet
 layout: documentation
 permalink: /:title
 description: A Pass Type Identifier is a Identifier associated with a developer account. A Pass Type ID as one or more certificates associated.

@@ -2,6 +2,7 @@
 title: Android Pay for Resellers
 categories:
   - android
+  - misc
 layout: documentation
 permalink: /:title
 description: Android Pass for Resellers

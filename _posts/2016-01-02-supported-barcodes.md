@@ -1,6 +1,7 @@
 ---
 title: Barcodes
-categories: apple-wallet
+categories:
+  - apple-wallet
 layout: documentation
 permalink: /:title
 description: Learn about the barcodes supported by the Apple Wallet

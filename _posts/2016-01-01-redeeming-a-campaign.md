@@ -1,6 +1,8 @@
 ---
 title: Redeeming a pass
-categories: quickstart
+categories:
+  - quickstart
+  - misc
 layout: documentation
 permalink: /:title
 description: How to redeem a pass using the redeem web page or any of the mobile apps and managing the redeemers (users that are allowed to redeem a given campaign).
