@@ -4,6 +4,7 @@ permalink: /:title
 layout: documentation
 categories:
   - misc
+  - authentication
 description: Single Sign-on with ADFS and SAML
 ---
 

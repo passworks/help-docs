@@ -3,6 +3,7 @@ title: Single sign-on (SSO)
 categories:
   - misc
   - quickstart
+  - authentication
 layout: documentation
 permalink: /:title
 description: Single sign-on (SSO) using SAML

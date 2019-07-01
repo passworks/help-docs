@@ -3,6 +3,7 @@ title: Two Factor Authentication (2FA)
 categories:
   - misc
   - quickstart
+  - authentication
 layout: documentation
 permalink: /:title
 description: How to increase account security by enabling two factor authentication.

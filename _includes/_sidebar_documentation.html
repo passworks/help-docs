@@ -20,10 +20,33 @@
     {% endfor %}
     </ul>
   </li>
+
   <li>
     Android Pay
     <ul>
     {% for page in site.categories.android reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    API
+    <ul>
+    {% for page in site.categories.api reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+  <li>
+    Authentication
+    <ul>
+    {% for page in site.categories.authentication reversed %}
       <li>
         <a href="{{page.url}}">{{ page.title }}</a>
       </li>
