@@ -29,7 +29,7 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-toc (0.12.1)
+    jekyll-toc (0.12.2)
       nokogiri (~> 1.9)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
