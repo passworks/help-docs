@@ -55,6 +55,17 @@
   </li>
 
   <li>
+    Security
+    <ul>
+    {% for page in site.categories.security reversed %}
+      <li>
+        <a href="{{page.url}}">{{ page.title }}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </li>
+
+  <li>
     Miscellaneous
     <ul>
     {% for page in site.categories.misc reversed %}
